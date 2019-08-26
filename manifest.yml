@@ -1,0 +1,10 @@
+---
+# comments
+applications:
+  - name: hello-bikeshare
+    command: node .
+    instances: 1
+    memory: 128M
+    disk_quota: 200M
+    env:
+      NODE_ENV: production
